@@ -1,7 +1,7 @@
 Name:     m17n-contrib
 Summary:  Contributed multilingualization datafiles for m17n-lib
 Version:  1.1.10
-Release:  4%{?dist}
+Release:  4%{?dist}.1
 Group:    System Environment/Libraries
 License:  LGPLv2+
 URL:      http://www.m17n.org/m17n-lib/index.html
@@ -18,7 +18,8 @@ Patch7:   te-inscript-ZWJ-451203.patch
 Patch8:   hi-remington-enhancements-653782.patch
 Patch9:   ta-tamil99-enhancement-653781.patch
 Patch10:  ml-inscript-semicolon-653783.patch
-Patch11:   te-inscript-642138.patch
+Patch11:  te-inscript-642138.patch
+Patch12:  bug712120-Add-Rupee-sign-inscript-maps.patch
 
 BuildArch: noarch
 BuildRequires: m17n-db-devel >= 1.5.2-3
@@ -114,6 +115,7 @@ for %(echo %1 | sed -e "s/\\(.*\\)/\\u\\1/").\
 %patch9 -p0
 %patch10 -p0
 %patch11 -p0
+%patch12 -p1
 
 %build
 %configure
@@ -137,6 +139,9 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/m17n/scripts
 
 %changelog
+* Mon Jun 20 2011 Parag Nemade <pnemade AT redhat DOT com> - 1.1.10-4.el6_1.1
+- Resolves:rh#712120 - [indic] Add Rupee Sign support in Inscript maps
+
 * Thu Dec 23 2010 Parag Nemade <pnemade AT redhat.com> - 1.1.10-4
 - Resolves:rh#642138-[te_IN] [inscript] U0C60, U0C44 and U0C01 need key mapping in inscript keymap.
 - Resolves:rh#653781 - [ta_IN] [tamil99] some enhancements needed for more input combinations
