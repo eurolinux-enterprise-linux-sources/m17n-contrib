@@ -1,20 +1,25 @@
 Name:     m17n-contrib
 Summary:  Contributed multilingualization datafiles for m17n-lib
 Version:  1.1.10
-Release:  3%{?dist}
+Release:  4%{?dist}
 Group:    System Environment/Libraries
 License:  LGPLv2+
 URL:      http://www.m17n.org/m17n-lib/index.html
 Source0:  http://www.m17n.org/m17n-lib-download/m17n-contrib-%{version}.tar.gz
 Source1:  mai-inscript.mim
-Patch0:	  bug433416-bn-probhat.patch
-Patch1:	  as-inscript-keysummary-440201.patch
+Patch0:   bug433416-bn-probhat.patch
+Patch1:   as-inscript-keysummary-440201.patch
 Patch2:   ml-inscript-keysummary-435259.patch
 Patch3:   kn-inscript-ZWNJ-440007.patch
 Patch4:   or-inscript-ZWJ-ZWNJ-466748.patch
 Patch5:   pa-jhelum-numeric-503478.patch
 Patch6:   kn-kgp-halantha-ayogavaaha.patch
 Patch7:   te-inscript-ZWJ-451203.patch
+Patch8:   hi-remington-enhancements-653782.patch
+Patch9:   ta-tamil99-enhancement-653781.patch
+Patch10:  ml-inscript-semicolon-653783.patch
+Patch11:   te-inscript-642138.patch
+
 BuildArch: noarch
 BuildRequires: m17n-db-devel >= 1.5.2-3
 Requires: m17n-db >= 1.4.0
@@ -29,7 +34,7 @@ for the m17n-lib project.
 %package %1\
 Summary:    Contributed input maps for %(echo %1 | sed -e "s/\\(.*\\)/\\u\\1/")\
 Group:      System Environment/Libraries\
-# for %{_datadir}/m17n\
+# for %%{_datadir}/m17n\
 Requires:   m17n-contrib\
 Obsoletes:  m17n-db-%1 < 1.4.0.1\
 Obsoletes:  ibus-m17n-%1 < 0.1.1.20081013-3\
@@ -51,7 +56,7 @@ for %(echo %1 | sed -e "s/\\(.*\\)/\\u\\1/").\
 %package %1\
 Summary:    Contributed input maps for %(echo %1 | sed -e "s/\\(.*\\)/\\u\\1/")\
 Group:      System Environment/Libraries\
-# for %{_datadir}/m17n\
+# for %%{_datadir}/m17n\
 Requires:   m17n-contrib\
 Requires:   m17n-db-%1 >= 1.4.0 \
 Obsoletes:  ibus-m17n-%1 < 0.1.1.20081013-3\
@@ -105,11 +110,14 @@ for %(echo %1 | sed -e "s/\\(.*\\)/\\u\\1/").\
 %patch5 -p0
 %patch6 -p0
 %patch7 -p0
+%patch8 -p0
+%patch9 -p0
+%patch10 -p0
+%patch11 -p0
 
 %build
 %configure
 make
-
 
 %install
 rm -rf $RPM_BUILD_ROOT
@@ -129,6 +137,12 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/m17n/scripts
 
 %changelog
+* Thu Dec 23 2010 Parag Nemade <pnemade AT redhat.com> - 1.1.10-4
+- Resolves:rh#642138-[te_IN] [inscript] U0C60, U0C44 and U0C01 need key mapping in inscript keymap.
+- Resolves:rh#653781 - [ta_IN] [tamil99] some enhancements needed for more input combinations
+- Resolves:rh#653782 - [hi_IN] problems with hi-remington layout
+- Resolves:rh#653783 - [ml_IN] The character 0D1A ("ച") missing on IOK for Malayalam Inscript
+
 * Tue Jan 19 2010 Parag Nemade <pnemade AT redhat.com> -1.1.10-3
 - Resolves: rh#556750: Add patch te-inscript-ZWJ-451203.patch
 
