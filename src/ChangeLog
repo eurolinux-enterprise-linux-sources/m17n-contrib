@@ -1,0 +1,773 @@
+2012-09-18  Kenichi Handa  <handa@gnu.org>
+
+	* Version 1.1.14 released.
+
+2012-04-23  Kenichi Handa  <handa@m17n.org>
+
+	* configure.ac: Version changed to 1.1.14.
+
+2012-03-15  Parag Nemade  <pnemade@redhat.com>
+
+	* im/pa-jhelum.mim: Use AltGr instead of Ctrl+Alt.
+	Add some new mappings.
+
+2012-03-02  Evuraan  <Evuraan at Gmail Dot Com>
+
+	* im/ml-mozhi.mim: Support atomic encoding of Malayalam Chillu
+	characters.  Add more mappings for convenience.
+
+2011-12-06  Harshula Jayasuriya <harshula@gmail.com>
+
+	* im/si-phonetic-dynamic.mim, im/si-trans.mim:
+	Add alt-gr mappings (G- ) to correspond to alt mappings (A- ).
+
+2011-10-18  TAKAHASHI Naoto  <ntakahas@m17n.org>
+
+	* AUTHORS: Rename singlish to si-singlish.
+	Delete si-phonetic-static.
+
+2011-10-11  Kenichi Handa  <handa@m17n.org>
+
+	* Version 1.1.13 released.
+
+2011-10-03  TAKAHASHI Naoto  <ntakahas@m17n.org>
+
+	* im/ta-inscript.mim: Add Tamil letter SHA.
+
+2011-09-12  Kenichi Handa  <handa@m17n.org>
+
+	* configure.ac: Version changed to 1.1.13.
+
+2011-09-12  William Giddings  <wjgiddings@googlemail.com>
+
+	* im/sa-iast.mim: New file.
+
+2011-08-29  Sarath Camillus Jayewardena <sakzje@gmail.com>
+
+	* im/si-sumihiri.mim: Add copyright notice.
+
+2011-07-01  Bahodir Mansurov  <beemzet@gmail.com>
+
+	* im/uz-kbd.mim: New file.
+
+	* im/uz-kbd.png: New file.
+
+2011-05-13  Kenichi Handa  <handa@m17n.org>
+
+	* im/si-transliteration.png: Renamed from si-trans.png.
+
+2011-04-18  Daiki Ueno  <ueno@unixuser.org>  (tiny change)
+
+	* im/ru-translit.mim: Change "w" to ?щ, delete "sj" for ?щ.
+
+2011-04-01  Parag Nemade  <pnemade@redhat.com>
+
+	* im/as-inscript.mim, im/bn-inscript.mim, im/gu-inscript.mim, im/hi-inscript.mim, im/kn-inscript.mim, im/ks-inscript.mim, im/ml-inscript.mim, im/mr-inscript.mim, im/or-inscript.mim, im/pa-inscript.mim, im/sd-inscript.mim, im/ta-inscript.mim, im/te-inscript.mim:
+	Add Rupee sign.
+
+2011-03-11  Praveen Illa  <mail2ipn@gmail.com>
+
+	* im/te-apple.png: New file.
+
+2011-03-07  Praveen Illa  <mail2ipn@gmail.com>
+
+	* im/te-apple.mim:
+	Remove the addional space character after ొ in ("t"    "ొ ") which
+	   should be like this-->("t"    "ొ")
+	Add (";" (delete @-) "ప") in (halant_consonants)
+
+2011-03-07  Pravin Satpute <psatpute@redhat.com>
+
+	* im/ks-inscript.mim: New file.
+
+2010-11-26  Kenichi Handa  <handa@m17n.org>
+
+	* AUTHORS: New author.
+
+2010-11-26  Hugues MOISY  <hugues.moisy@gmail.com>
+
+	* im/bo-ewts.mim: Improve the original one (was in m17n-db
+	package).
+
+2010-11-25  Shantikunj, Haridwar, UK, INDIA <www.awgp.org>
+
+	* im/hi-vedmata.mim: Update by the author.
+
+2010-11-19  TAKAHASHI Naoto  <ntakahas@m17n.org>
+
+	* AUTHORS: New author.
+
+2010-11-19  Shantikunj, Haridwar, UK, INDIA <www.awgp.org>
+
+	* im/hi-vedmata.mim, im/hi-vedmata.png: New file.
+
+2010-10-26  TAKAHASHI Naoto  <ntakahas@m17n.org>
+
+	* im/si-singlish.mim: Renamed from singlish.mim.
+
+	* im/singlish.mim: Removed.
+
+2010-10-26  Santhosh Thottingal  <santhosh.thottingal@gmail.com>
+
+	* im/ml-swanalekha.mim: Support Rupee (U+20B9).
+
+2010-10-25  TAKAHASHI Naoto  <ntakahas@m17n.org>
+
+	* AUTHORS: New author.
+
+	* im/singlish.mim: New file.
+
+2010-10-04  Kenichi Handa  <handa@m17n.org>
+
+	* Version 1.1.12 released.
+
+2010-09-30  TAKAHASHI Naoto  <ntakahas@m17n.org>
+
+	* im/cs-kbd.mim: Escape a doublequote in the description.
+
+2010-09-22  Kenichi Handa  <handa@m17n.org>
+
+	* configure.ac: Version changed to 1.1.12.
+
+2010-08-18  TAKAHASHI Naoto  <ntakahas@m17n.org>
+
+	* AUTHORS: New author.
+
+2010-08-18  Yuri Victorovich <yuri@tsoft.com>
+
+	* im/be-kbd.mim: New file.
+
+2010-08-17  Kenichi Handa  <handa@m17n.org>
+
+	* im/be-kbd.png: New file.
+
+2010-07-01  Suraj N. Kurapati <sunaku@gmail.com>
+
+	* im/te-rts.mim: Add support for several new Unicode characters.
+	Add a 'j&n' combination to produce the literal 'jn' compound.
+	Clean up the formatting.
+
+2010-07-01  TAKAHASHI Naoto  <ntakahas@m17n.org>
+
+	* AUTHORS: Update mail address of a contributor.
+
+2010-06-14  Parag Nemade <pnemade@redhat.com>
+
+	* im/ta-tamil99.mim: Add more characters to be typed.
+
+2010-05-19  Kenichi Handa  <handa@m17n.org>
+
+	* im/ml-inscript.mim (map:trans): Delete unnecessary "\".
+
+2010-04-27  Rajesh Ranjan <rranjan@redhat.com>
+
+	* im/hi-remington.mim: Updated by the author.
+
+2010-03-30  Kenichi Handa  <handa@m17n.org>
+
+	* configure.ac: Version changed to 1.1.11.
+
+2010-03-19  Kenichi Handa  <handa@m17n.org>
+
+	* configure.ac: Version changed to 1.1.11pre.
+
+2010-02-26  Goren  <goren -at- riseup.net>
+
+	* im/ath-phonetic.mim, im/bla-phonetic.mim, im/cr-western.mim, im/iu-phonetic.mim, im/nsk-phonetic.mim, im/oj-phonetic.mim:
+	New file.
+
+2010-02-02  TAKAHASHI Naoto  <ntakahas@m17n.org>
+
+	* AUTHORS: New author.
+
+2010-02-02  Raghav Krishnapriyan  <raghav.r.krishnapriyan@gmail.com>
+
+	* im/yi-yivo.mim, im/yi-yivo.png: New file.
+
+2010-01-25  Kenichi Handa  <handa@m17n.org>
+
+	* im/si-sumihiri.png: New icon.
+
+2010-01-25  Sarath Camillus Jayewardena  <sakzje@gmail.com>
+
+	* im/si-sumihiri.mim: New file.
+
+2010-01-25  TAKAHASHI Naoto  <ntakahas@m17n.org>
+
+	* AUTHORS: New author.
+
+2010-01-22  Kenichi Handa  <handa@m17n.org>
+
+	* im/si-phonetic-dynamic.png: New icon.
+
+	* im/si-trans.png: New icon.
+
+2010-01-21  TAKAHASHI Naoto  <ntakahas@m17n.org>
+
+	* AUTHORS: New author.
+
+2010-01-21  Goren  <goren -at- riseup.net>
+
+	* im/ii-phonetic.mim: New file.
+
+2010-01-21  Kenichi Handa  <handa@m17n.org>
+
+	* im/ii-phonetic.png: New icon.
+
+2010-01-05  Santhosh Thottingal  <santhosh00@gmail.com>
+
+	* im/ml-swanalekha.png: New file.
+
+2009-11-02  TAKAHASHI Naoto  <ntakahas@m17n.org>
+
+	* im/si-phonetic-static.mim: Removed.
+
+2009-08-31  Tran Ngoc Quan  <vnwildman@gmail.com>
+
+	* im/eo-vi.mim: Updated by the contributer.
+
+2009-08-03  Prasad H. L. <hlprasu@gmail.com>
+
+	* im/kn-kgp.mim: Modified for better visual appeal
+
+2009-07-28  Kenichi Handa  <handa@m17n.org>
+
+	* Version 1.1.10 released.
+
+2009-07-28  Kenichi Handa  <handa@m17n.org>
+
+	* Makefile.am (EXTRA_DIST): Add bootstrap.sh.
+
+	* configure.ac: Version changed to 1.1.10.
+
+2009-07-28  TAKAHASHI Naoto  <ntakahas@m17n.org>
+
+	* im/si-trans.mim: Change method name (trans -> transliteration).
+
+2009-06-24  TAKAHASHI Naoto  <ntakahas@m17n.org>
+
+	* AUTHORS: New author.
+
+	* im/zh-zhuyin.mim, im/zh-zhuyin.png, im/zh-zhuyin.readme: New file.
+
+2009-06-18  TAKAHASHI Naoto  <ntakahas@m17n.org>
+
+	* AUTHORS: New author.
+
+	* im/ta-vutam.mim, im/ta-vutam.png: New file.
+
+2009-05-15  TAKAHASHI Naoto  <ntakahas@m17n.org>
+
+	* AUTHORS: New author.
+
+	* im/cs-kbd.mim, im/cs-kbd.png: New file.
+
+2009-05-14  TAKAHASHI Naoto  <ntakahas@m17n.org>
+
+	* AUTHORS, im/ks-kbd.mim: Fix the filename in the 1st line of comments.
+
+2009-04-13  TAKAHASHI Naoto  <ntakahas@m17n.org>
+
+	* AUTHORS: Canonicalise format.
+
+2009-04-03  TAKAHASHI Naoto  <ntakahas@m17n.org>
+
+	* AUTHORS: Add an input method.
+
+	* im/zh-pinyin-vi.mim: Correct comment description.
+
+	* im/zh-pinyin-vi.mim: New file.
+
+2009-04-01  Kenichi Handa  <handa@m17n.org>
+
+	* im/ks-kbd.mim: Renamed from im/ks-kdb.mim.  Fix typo: kdb->kbd.
+	Fix title.
+
+	* AUTHORS: Add Mohammad Nayeem Teli.
+
+2009-04-01  Mohammad Nayeem Teli  <mohammad.nayeem@gmail.com>
+
+	* im/ks-kdb.mim: New Kashmiri input method.
+
+2009-03-24  Kenichi Handa  <handa@m17n.org>
+
+	* AUTHORS: Add Michaël Monzo.
+
+2009-03-24  Michaël Monzo <elbrazotontodelaley@free.fr>
+
+	* im/ps-phonetic.mim: New input method for pashto.
+
+	* im/ps-phonetic.png: New icon.
+
+2009-03-02  Kenichi Handa  <handa@m17n.org>
+
+	* Version 1.1.9 released.
+
+2009-02-25  Kenichi Handa  <handa@m17n.org>
+
+	* configure.ac: Version changed to 1.1.9.
+
+2009-02-20  TAKAHASHI Naoto  <ntakahas@m17n.org>
+
+	* AUTHORS: New author.
+
+	* im/eo-vi.mim: New file.
+
+2008-12-26  Harshula Jayasuriya <harshula@gmail.com>
+
+	* im/si-phonetic-dynamic.mim: Merge consonants, vowels and
+	remainder maps into one as suggested by Takahashi.
+
+2008-11-04  Maxim Treskin  <zerthurd@gmail.com>
+
+	* im/ru-translit.mim:
+	Add buryat (mongol) symbols: U+04AE, U+04AF, U+04E8, U+04E9.
+
+2008-10-22  Jens Petersen  <petersen@redhat.com>  (tiny change)
+
+	* tbl2mim.awk: Add -f to invocation so that it runs as a script.
+	Handle language "other".
+
+2008-10-20  Kenichi Handa  <handa@m17n.org>
+
+	* Version 1.1.8 released.
+
+2008-10-20  Kenichi Handa  <handa@m17n.org>
+
+	* configure.ac: Version changed to 1.1.8.
+
+2008-09-25  Harshula Jayasuriya <harshula@gmail.com>
+
+	* im/si-trans.mim: BUGFIX: MJ -> My, A-n J -> A-n y
+	BUGFIX: Add consonants group to the second state to ensure consonant
+	clusters involving ra and la at the second position are available.
+
+	* im/si-phonetic-dynamic.mim:
+	Move the macro section to the top as suggested by Takahashi.
+
+	* im/si-phonetic-static.mim:
+	Remove any requirement for surrounding text support.
+
+2008-08-29  TAKAHASHI Naoto  <ntakahas@m17n.org>
+
+	* im/sd-inscript.mim: Modify copyright.
+
+2008-08-14  TAKAHASHI Naoto  <ntakahas@m17n.org>
+
+	* AUTHORS: New author.
+
+2008-08-14  Pravin Satpute <psatpute@redhat.com>
+
+	* im/sd-inscript.mim, im/sd-inscript.png: New file.
+
+2008-07-02  TAKAHASHI Naoto  <ntakahas@m17n.org>
+
+	* AUTHORS: New author.
+
+2008-07-02  Sridhar M.A., Mysore <mas@mylug.org>
+
+	* im/kn-kgp.mim: Almost rewritten by the new author.
+
+2008-06-28  Kenichi Handa  <handa@m17n.org>
+
+	* Version 1.1.7 released.
+
+2008-06-28  Kenichi Handa  <handa@m17n.org>
+
+	* configure.ac: Version updated to 1.1.6.
+
+2008-05-14  Maxim Treskin <zerthurd@gmail.com>
+
+	* im/ru-translit.mim: Remove binding '@' to U+044E.
+	Add bindings for Capital Yat and Small Yat.
+
+2008-05-13  TAKAHASHI Naoto  <ntakahas@m17n.org>
+
+	* AUTHORS: New author.
+
+	* im/ml-swanalekha.mim: New file.
+
+2008-05-09  TAKAHASHI Naoto  <ntakahas@m17n.org>
+
+	* im/eo-h-fundamente.png, im/eo-h-sistemo.png, im/eo-plena.png, im/eo-q-sistemo.png, im/eo-x-sistemo.png:
+	New files.
+
+2008-02-28  Evuraan <Evuraan at Gmail Dot Com>
+
+	* im/ml-mozhi.mim: Add new entries.
+
+2008-02-07  Kenichi Handa  <handa@ni.aist.go.jp>
+
+	* Version 1.1.6 released.
+
+2008-02-01  TAKAHASHI Naoto  <ntakahas@m17n.org>
+
+	* AUTHORS: New author.
+
+2008-02-01  Evuraan <Evuraan at Gmail Dot Com>
+
+	* im/ml-mozhi.mim, im/ml-mozhi.png: New file.
+
+2008-01-29  Kenichi Handa  <handa@ni.aist.go.jp>
+
+	* configure.ac: Version updated to 1.1.6.
+
+	* im/vi-nom.png, im/vi-nom-vni.png: Nerw files.
+
+2008-01-29  Phan Anh Dung  <padung@huesoft.com.vn>
+
+	* im/vi-nom.mim: Fix a few typos.
+
+	* im/vi-nom-vni.mim: New file.
+
+2008-01-24  Amitakhya Phukan <aphukan@redhat.com>
+
+	* im/as-phonetic.mim, im/as-inscript.mim: New files.
+
+2007-12-28  Kenichi Handa  <handa@ni.aist.go.jp>
+
+	* Version 1.1.5 released.
+
+2007-12-28  Kenichi Handa  <handa@ni.aist.go.jp>
+
+	* Makefile.am (EXTRA_DIST): Delete m17n_script_DATA, add
+	m17n_script_SCRIPTS.
+
+	* configure.ac: Versions updated to 1.1.5.
+
+2007-12-28  Kenichi Handa  <handa@ni.aist.go.jp>
+
+	* Version 1.1.4 released.
+
+2007-12-28  Kenichi Handa  <handa@ni.aist.go.jp>
+
+	* configure.ac: Versions updated to 1.1.4.
+
+2007-12-19  Parag Nemade <pnemade@redhat.com>
+
+	* te-inscript.mim: New assignments to V and B.
+
+2007-11-26  TAKAHASHI Naoto  <ntakahas@m17n.org>
+
+	* AUTHORS: Add an author.
+
+2007-11-26  Arjuna Rao Chavala <arjunaraoc@googlemail.com>
+
+	* im/te-pothana.mim, im/te-pothana.png: New file.
+
+2007-11-19  Harshula Jayasuriya <harshula@gmail.com>
+
+	* im/si-trans.mim: Added the Alt-n and Alt-h mappings. It is now
+	ready for use!
+
+2007-11-14  Harshula Jayasuriya <harshula@gmail.com>
+
+	* im/si-trans.mim: Sync with the updated transliteration scheme
+	document.
+
+2007-11-06  TAKAHASHI Naoto  <ntakahas@m17n.org>
+
+	* AUTHORS: Add si-trans.mim.
+
+2007-11-06  Harshula Jayasuriya <harshula@gmail.com>
+
+	* im/si-trans.mim: New file.
+
+	* im/si-phonetic-dynamic.mim: Merge three map-lists into one.
+
+2007-10-18  Kenichi Handa  <handa@m17n.org>
+
+	* im/hi-typewriter.png: Deleted.  It is newly created in m17n-db.
+
+	* Makefile.am (m17n_script_SCRIPTS): Renamed from
+	m17n_script_DATA.
+
+2007-07-24  Kenichi Handa  <handa@m17n.org>
+
+	* Version 1.1.3 released.
+
+	* configure.ac: Version changed to 1.1.3.
+
+	* Makefile.am (EXTRA_DIST): Include ${m17n_script_DATA}, delete
+	${bin_SCRIPTS).
+
+2007-07-20  TAKAHASHI Naoto  <ntakahas@m17n.org>
+
+	* AUTHORS: New author.
+
+	* po/eo.po: Add translations for im/eo-*.mim files.
+
+2007-07-20  Kenichi Handa  <handa@duron>
+
+	* po/eo.po: New file.
+
+2007-07-20  Joop Kiefte <ikojba@gmail.com>
+
+	* im/eo-h-f.mim, im/eo-h.mim, im/eo-install.txt, im/eo-plena.mim, im/eo-q.mim, im/eo-x.mim:
+	New files.
+
+2007-07-15  Kenichi Handa  <handa@m17n.org>
+
+	* Version 1.1.2 released.
+
+2007-07-12  Kenichi Handa  <handa@m17n.org>
+
+	* Makefile.am (bin_SCRIPTS): Delete it.
+	(m17n_scriptdir): New variable.
+	(m17n_script_DATA): New variable.
+
+2007-07-10  Harshula Jayasuriya  <harshula@gmail.com>
+
+	* im/si-phonetic-dynamic.mim: New file.
+
+2007-07-09  Kenichi Handa  <handa@m17n.org>
+
+	* im/tai-sonla.mim: Fix typo in the description.
+
+2007-07-02  Harshula Jayasuriya  <harshula@gmail.com>
+
+	* im/si-phonetic-static.mim:
+	Move the JOIN and TOUCH keys to more accessible key combinations.
+	Implement the correct handling of BackSpace.
+
+2007-06-21  Kenichi Handa  <handa@m17n.org>
+
+	* im/tai-sonla.mim: Several rule deleted.  Add BackSpace handling.
+	(adjust-tone): New macro.
+	(vowel-digraph): Fix characters.
+	(tone): Maps tone-spacing and tone-combining are merged.
+	(backspace): New map.
+
+2007-06-20  Phan Anh Dung  <padung@huesoft.com.vn>
+
+	* im/tai-sonla.mim: Fix several rules.
+
+2007-06-19  "Tuyet Nhung" <dangtuyetnhung@gmail.com>
+
+	* im/tai-sonla.mim: New input method for Tai Viet.
+
+2007-06-14  Kenichi Handa  <handa@m17n.org>
+
+	* im/vi-han.mim (title): Change it to han characters.
+
+	* AUTHORS: Add Phan Anh Dung.
+
+2007-06-14  TAKAHASHI Naoto  <ntakahas@m17n.org>
+
+	* im/si-phonetic-static.mim: Patch from contributer.
+
+2007-06-13  Phan Anh Dung  <padung@huesoft.com.vn>
+
+	* im/vi-nom.mim: New input method for Vietnamese Chu Nom.
+
+	* im/vi-han.mim: New input method for Vietnamese Han.
+
+2007-05-29  TAKAHASHI Naoto  <ntakahas@m17n.org>
+
+	* im/as-inscript.mim, im/as-phonetic.mim, im/bn-inscript.mim,
+	im/bn-probhat.mim, im/gu-inscript.mim, im/gu-phonetic.mim,
+	im/hi-inscript.mim, im/hi-phonetic.mim, im/hi-remington.mim,
+	im/kn-inscript.mim, im/kn-kgp.mim, im/ml-inscript.mim,
+	im/mr-inscript.mim, im/mr-phonetic.mim, im/ne-rom.mim,
+	im/ne-trad.mim, im/or-inscript.mim, im/or-phonetic.mim,
+	im/pa-inscript.mim, im/pa-jhelum.mim, im/pa-phonetic.mim,
+	im/ta-inscript.mim, im/ta-phonetic.mim, im/ta-tamil99.mim,
+	im/ta-typewriter.mim, im/te-inscript.mim, im/ur-phonetic.mim:
+	Change "the library" -> the m17n library
+
+2007-05-25  TAKAHASHI Naoto  <ntakahas@m17n.org>
+
+	* AUTHORS: New contributer
+
+	* im/as-inscript.mim, im/as-phonetic.mim, im/bn-inscript.mim,
+	im/bn-itrans.mim, im/bn-probhat.mim, im/gu-inscript.mim,
+	im/gu-phonetic.mim, im/hi-inscript.mim, im/hi-phonetic.mim,
+	im/hi-remington.mim, im/kn-inscript.mim, im/kn-kgp.mim,
+	im/ml-inscript.mim, im/mr-inscript.mim, im/mr-itrans.mim,
+	im/mr-phonetic.mim, im/or-inscript.mim, im/or-phonetic.mim,
+	im/pa-inscript.mim, im/pa-jhelum.mim, im/pa-phonetic.mim,
+	im/ta-typewriter.mim, im/te-inscript.mim:
+	Patch from contributers.
+
+2007-05-17  TAKAHASHI Naoto  <ntakahas@m17n.org>
+
+	* im/hi-typewriter.mim: Deleted because of redundancy.
+
+2007-04-18  TAKAHASHI Naoto  <ntakahas@m17n.org>
+
+	* AUTHORS: New contributer.
+
+	* im/ru-translit.mim: New file.
+
+2007-03-19  Kenichi Handa  <handa@m17n.org>
+
+	* im/kn-inscript.mim: Add "`"->U+0CCA mapping.
+
+2007-01-30  Kenichi Handa  <handa@m17n.org>
+
+	* configure.ac: Version changed to 1.1.2.
+
+	* configure.ac: Pay attention to --prefix.
+
+2007-01-18  TAKAHASHI Naoto  <ntakahas@m17n.org>
+
+	* configure.ac, bootstrap.sh, README, NEWS, Makefile.am:
+	Correct copyright notice.
+
+2007-01-10  TAKAHASHI Naoto  <ntakahas@m17n.org>
+
+	* im/hi-remington.mim: Remove redundant spaces.
+
+2006-12-08  Kenichi Handa  <handa@m17n.org>
+
+	* Version 1.1.1 released.
+
+2006-12-08  Kenichi Handa  <handa@m17n.org>
+
+	* Makefile.am (EXTRA_DIST): Add ${bin_SCRIPTS}.
+
+	* configure.ac: Version changed to 1.1.1.
+
+2006-12-07  Kenichi Handa  <handa@m17n.org>
+
+	* Version 1.1.0 released.
+
+2006-12-07  TAKAHASHI Naoto  <ntakahas@m17n.org>
+
+	* Update FSF postal address.
+
+2006-12-01  Kenichi Handa  <handa@m17n.org>
+
+	* configure.ac: Version changed to 1.1.0.
+
+2006-11-29  TAKAHASHI Naoto  <ntakahas@m17n.org>
+
+	* im/*.mim: Update contributions from Red Hat.
+
+	* im/bn-itrans.mim, im/hi-remington.mim, im/hi-remington.png,
+	im/hi-typewriter.mim, im/hi-typewriter.png, im/or-inscript.mim,
+	im/or-inscript.png, im/ta-typewriter.mim, im/ta-typewriter.png,
+	im/as-inscript.mim, im/mr-inscript.mim: New file.	
+
+2006-11-29  TAKAHASHI Naoto  <ntakahas@m17n.org>
+
+	* im/te-rts.mim: Fix typo.
+
+2006-11-29  Kenichi Handa  <handa@m17n.org>
+
+	* config.rpath: New file.
+
+	* ABOUT-NLS: New file. 
+
+	* bootstrap.sh: Generate po/POTFILES.in.
+
+	* configure.ac: Call AM_GNU_GETTEXT.
+	(INPUT_METHOD): Adjusted for the directory change (im-indic->im).
+	(ICONS): Likewise.
+
+2006-11-28  gettextize  <bug-gnu-gettext@gnu.org>
+
+	* Makefile.am (SUBDIRS): New variable.
+	(ACLOCAL_AMFLAGS): New variable.
+	(EXTRA_DIST): Add config.rpath, m4/ChangeLog.
+
+	* configure.ac (AC_CONFIG_FILES): Add po/Makefile.in.
+
+	* po, m4: New directories.
+
+2006-11-21  TAKAHASHI Naoto  <ntakahas@m17n.org>
+
+	* im/*.mim: Update contributions from Red Hat.
+
+2006-11-16  TAKAHASHI Naoto  <ntakahas@m17n.org>
+
+	*  im-indic: Renamed to im.
+
+2006-10-02  Kenichi Handa  <handa@m17n.org>
+
+	* Makefile.am (bin_SCRIPTS): New variable.
+
+	* tbl2mim.awk: New file.
+
+2006-09-13  TAKAHASHI Naoto  <ntakahas@m17n.org>
+
+	* im-indic/si-phonetic-static.mim: New file.
+
+2006-08-21  Kenichi Handa  <handa@m17n.org>
+
+	* Version 1.0.0 released.
+
+2006-08-17  TAKAHASHI Naoto  <ntakahas@m17n.org>
+
+	* AUTHORS: Add more contributers.
+
+	* im-indic/te-inscript.mim: Modify comments.
+
+	* im-indic/te-apple.mim: Fix typo.
+
+	* im-indic/ta-tamil99.mim, im-indic/ta-phonetic.mim,
+	im-indic/ta-inscript.mim, im-indic/pa-phonetic.mim,
+	im-indic/pa-jhelum.mim, im-indic/pa-inscript.mim,
+	im-indic/ne-trad.mim, im-indic/ne-rom.mim,
+	im-indic/ml-inscript.mim, im-indic/kn-kgp.mim,
+	im-indic/kn-inscript.mim, im-indic/hi-phonetic.mim,
+	im-indic/hi-inscript.mim, im-indic/gu-phonetic.mim,
+	im-indic/gu-inscript.mim, im-indic/bn-probhat.mim,
+	im-indic/bn-inscript.mim: Modify comments.
+
+2006-08-16  TAKAHASHI Naoto  <ntakahas@m17n.org>
+
+	* im-indic/hi-inscript.mim, im-indic/gu-inscript.mim,
+	im-indic/bn-inscript.mim: Fix typo.
+
+	* AUTHORS: Add te-apple.mim entry.
+
+	* AUTHORS: Fix typo.
+
+2006-07-10  Kenichi Handa  <handa@m17n.org>
+
+	* im-indic/te-apple.mim: New input method.
+
+2006-07-10  TAKAHASHI Naoto  <ntakahas@m17n.org>
+
+	* im-indic/te-rts.mim: Follow RIT 3.0 specification.
+
+2006-07-10  Kenichi Handa  <handa@m17n.org>
+
+	* im-indic/te-apple.mim: New input method contributed by Chaitanya
+	Kamisetty <chaitanya@atc.tcs.co.in>.
+
+2006-07-10  TAKAHASHI Naoto  <ntakahas@m17n.org>
+
+	* im-indic/te-rts.mim: Follow RIT 3.0 specification.
+
+2006-06-15  TAKAHASHI Naoto  <ntakahas@m17n.org>
+
+	* im-indic/te-rts.mim: Move x, ksh, ksH and ks from consonant2 to
+	consonant.
+
+2006-03-31  Kenichi Handa  <handa@m17n.org>
+
+	* Version 0.9.0 released.
+
+
+Copyright (C) 2006, 2007, 2008, 2009, 2010, 2011, 2012
+  National Institute of Advanced Industrial Science and Technology (AIST)
+  Registration Number H15PRO112
+
+This file is part of the m17n-contrib, a sub-part of the m17n library.
+
+The m17n library is free software; you can redistribute it and/or
+modify it under the terms of the GNU Lesser General Public License
+as published by the Free Software Foundation; either version 2.1 of
+the License, or (at your option) any later version.
+
+The m17n library is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+Lesser General Public License for more details.
+
+You should have received a copy of the GNU Lesser General Public
+License along with the m17n library; if not, write to the Free
+Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
+Boston, MA 02110-1301, USA.
