@@ -1,7 +1,7 @@
 Name:     m17n-contrib
 Summary:  Contributed multilingualization datafiles for m17n-lib
 Version:  1.1.14
-Release:  2.1%{?dist}
+Release:  3%{?dist}
 Group:    System Environment/Libraries
 License:  LGPLv2+
 URL:      http://www.nongnu.org/m17n
@@ -161,6 +161,9 @@ rm -rf $RPM_BUILD_ROOT/%{_bindir}
 %{_datadir}/m17n/icons/zh*.png
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.1.14-3
+- Mass rebuild 2013-12-27
+
 * Fri Jul 12 2013 Parag Nemade <pnemade AT redhat DOT com> - 1.1.14-2.1
 - Resolves:rh#983613: Bring back Obsoletes for upgrade from rhel6
 
